@@ -1,4 +1,0 @@
-[submodule "lib/Silk.NET"]
-	path = lib/Silk.NET
-	url = git@github.com:Ultz/Silk.NET.git
-	branch = 2.0
