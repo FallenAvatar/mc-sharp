@@ -18,6 +18,7 @@
   <ItemGroup>
     <None Remove="gl\shaders\shader.frag" />
     <None Remove="gl\shaders\shader.vert" />
+    <None Remove="tex\silk.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -27,10 +28,14 @@
     <Content Include="gl\shaders\shader.vert">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="tex\silk.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Silk.NET" Version="2.0.0" />
+    <PackageReference Include="Silk.NET" Version="2.3.0" />
+    <PackageReference Include="SixLabors.ImageSharp" Version="1.0.3" />
   </ItemGroup>
 
 </Project>
