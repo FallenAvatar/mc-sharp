@@ -35,7 +35,7 @@
 
   <ItemGroup>
     <PackageReference Include="Silk.NET" Version="2.3.0" />
-    <PackageReference Include="SixLabors.ImageSharp" Version="1.0.3" />
+    <PackageReference Include="SixLabors.ImageSharp" Version="2.1.7" />
   </ItemGroup>
 
 </Project>
